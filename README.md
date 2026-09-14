@@ -24,6 +24,13 @@ agent 一碰到不确定就发问——把用户的一天切成 INTERRUPTION 碎
 
 **阻塞和不确定是两回事。**真阻塞（没有答案就无法继续）立刻单独问。其余全部等批量。把所有不确定都当阻塞的 agent，制造了这个 skill 要治的滴漏。
 
+## Honest limitations / 如实说明局限
+
+- Over-batching is a real failure mode: a day-old question that blocks one line of work should have been asked immediately.
+- Defaults replace reading the room; for emotionally loaded contexts, ask sooner and in person.
+
+过度批量是真实的失败模式：一条挡住一行代码的陈年问题就该立刻问。默认值替代不了察言观色；情绪浓的场合，早点问、当面问。
+
 ## Install / 安装
 
 ```bash
