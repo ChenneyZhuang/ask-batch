@@ -1,0 +1,15 @@
+{
+  "name": "ask-batch",
+  "version": "0.1.0",
+  "description": "Stop the drip of piecemeal questions: collect open questions as they arise into a parked list, group them by decision context, ask once per group with defaults proposed and an explicit answerable format, and keep working on everything that does not block — so the user answers in one sitting instead of being interrupted all day.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChenneyZhuang/ask-batch.git"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}
