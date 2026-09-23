@@ -1,0 +1,23 @@
+{
+  "skill_name": "ask-batch",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "我要跟老板确认三个事情：请假、加设备、还有项目方向，帮我组织一下怎么问",
+      "expected_output": "The asks batched appropriately (routine items batched, the direction question separated as a bigger conversation), each with a recommendation and a default; not one giant form.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "I have 8 small questions for the client — send them all at once?",
+      "expected_output": "A judgment call with the skill's over-batching rule applied: batch to the decision at hand, drop questions that don't change anything, include defaults.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "整理一下需要用户确认的问题清单",
+      "expected_output": "A batched ask-list where every question has a recommended default, sensitive topics are split out for direct conversation, and the batch is sized to the decision.",
+      "files": []
+    }
+  ]
+}

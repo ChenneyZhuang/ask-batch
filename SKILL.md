@@ -20,6 +20,10 @@ metadata:
 
 # Ask Batch: one sitting instead of all-day interruptions
 
+## When to use
+
+Use when questions accumulate during async work: instead of interrupting, park and batch them. Use when preparing a client call or a boss check-in. Not for urgent blockers (ask immediately) or emotionally sensitive topics (ask in person).
+
 A dozen piecemeal questions cost a morning of context switches. Parked,
 grouped, default-proposed questions cost minutes — and reveal which single
 decision unblocks half the list.
@@ -66,3 +70,9 @@ decision unblocks half the list.
 Non-blocking questions were parked rather than dripped, the user answered
 once per group with defaults proposed, defaults applied visibly at their
 stated time, and the only immediate ask was a genuine blocker.
+
+## Gotchas / 常见坑
+
+- Over-batching is a failure mode too: eight questions when two would unblock produces a form nobody fills — batch to the decision at hand.
+- Emotional or sensitive topics need early, face-to-face asking; batching reads as deflection there.
+- A question without a default pushes the decision back to you — include your recommendation with every ask.
